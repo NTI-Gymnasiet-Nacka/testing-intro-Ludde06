@@ -1,8 +1,12 @@
 # Största skillnad
 
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
+    text = input()
+    text = text.replace(" ", "").split(",")
+    tal = []
+    for u in text:
+        tal.append(int(u))
+    print(f'{max(tal) - min(tal)}')
 
 if __name__ == "__main__":
     main()
