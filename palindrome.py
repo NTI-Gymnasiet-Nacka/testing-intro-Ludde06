@@ -3,9 +3,9 @@
 def main():
     text = input("")
     if text[::-1] == text:
-        print("True")
+        print(True)
     else:
-        print("False")
+        print(False)
 
 if __name__ == "__main__":
     main()
